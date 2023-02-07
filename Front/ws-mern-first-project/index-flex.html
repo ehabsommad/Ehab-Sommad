@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            background-color: gray;
+        }
+        section{
+            display: flex;
+            flex-direction:row;
+
+
+        }
+        section > nav {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            background-color: whitesmoke;
+            justify-content: center;
+            align-items: center;
+        }
+        nav > ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            list-style: none;
+        }
+        section > article{
+            display: flex;
+            flex-direction: column;
+            flex: 7;
+            background-color: antiquewhite;
+            padding: 0px 20px;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Title</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">first</a></li>
+                <li><a href="#">secound</a></li>
+                <li><a href="#">third</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>This is a Title </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur hic asperiores, at cupiditate quo voluptates exercitationem voluptatem commodi nam? Nobis qui aspernatur et necessitatibus soluta veniam repudiandae deleniti iste ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui mollitia nulla neque commodi quo quos praesentium dolor expedita, earum eligendi adipisci eveniet molestiae ad at, facilis eum eos harum voluptates.<br/> </p>
+        </article>
+    </section>
+    <footer>
+        <span>
+            Copyright Reserved 2022
+        </span>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color:gray;
+            padding: 20px;
+            text-align: center;
+        }
+        section >nav{
+            float: left;
+            background-color: whitesmoke;
+            width: 30%;
+            height: 150px;
+        }
+        section >nav >ul{
+            list-style: none;
+        }
+        section >nav > ul >li{
+            margin-top: 10px;
+        }
+        section >nav > ul >li >a {
+            text-decoration: none;
+        }
+        section >article{
+            background-color: antiquewhite;
+            float: left;
+            width: 70%;
+            padding: 0px 20px;
+            height: 150px;
+        }
+        section::after{
+            content: '';
+            clear: both;
+            display: block;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Title</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">first</a></li>
+                <li><a href="#">secound</a></li>
+                <li><a href="#">third</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>This is a Title </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur hic asperiores, at cupiditate quo voluptates exercitationem voluptatem commodi nam? Nobis qui aspernatur et necessitatibus soluta veniam repudiandae deleniti iste ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui mollitia nulla neque commodi quo quos praesentium dolor expedita, earum eligendi adipisci eveniet molestiae ad at, facilis eum eos harum voluptates.<br/> </p>
+        </article>
+    </section>
+    <footer>
+        <span>
+            Copyright Reserved 2022
+        </span>
+    </footer>    
+</body>
+</html>

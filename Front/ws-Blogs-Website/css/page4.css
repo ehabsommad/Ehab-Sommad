@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header>nav:first-child {
+    width: 100%;
+    height: 60px;
+    background-color: #1E2D66;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header>nav:first-child>p {
+    margin-left: 60px;
+}
+
+header>nav:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header>nav:last-child>figure {
+    margin-left: 54px;
+    padding: 27px 0px;
+    display: flex;
+}
+
+header>nav:last-child>figure>span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #037CFF;
+    font-size: 20px;
+}
+
+
+header>nav:last-child>nav>ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 55px;
+    list-style: none;
+    column-gap: 66px;
+    padding: 48px 0px;
+}
+
+
+.header-nav>ul>li>a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+}
+
+/* ********************************************* */
+
+.bg-1 {
+    background-image: url(/images/header.png);
+    background-color: #626e9e;
+    width: 100%;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.bg-1>span {
+    color: #FFFFFF;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/****************************************************/
+.content-us {
+    display: flex;
+    flex-direction: column;
+    row-gap: 85px;
+    margin: 114px 292px 0px 292px;
+}
+
+.content-us>article {
+    display: flex;
+    flex-direction: row;
+    column-gap: 220px;
+    text-align: center;
+}
+
+.content-us>article>nav>span {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-us>article>nav>p {
+    color: #5A5A5A;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 38px;
+}
+
+form>nav>input {
+    background-color: #e6e1e1;
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+.last-input>input {
+    background-color: #e6e1e1;
+    width: 1210px;
+    height: 274px;
+    border: none;
+}
+
+input::placeholder {
+    color: #1E2D66;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #1E2D66;
+    width: 279px;
+    height: 72px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+
+/* ****************************************/
+footer {
+    width: 100%;
+    height: 72px;
+    background-color: #1E2D66;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 161px;
+}
+
+/* ****************Media-query************************** */
+
+@media only screen and (max-width: 1280px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header>nav:first-child {
+        width: 100%;
+        height: 40px;
+        background-color: #1E2D66;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+
+    header>nav:first-child>p {
+        margin: 40px;
+        text-align: center;
+    }
+
+    header>nav:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header>nav:last-child>figure {
+        margin-left: 0px;
+        padding: 27px 0px;
+        display: flex;
+    }
+
+    header>nav:last-child>figure>span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #037CFF;
+        font-size: 15px;
+    }
+
+    header>nav:last-child>nav>ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        list-style: none;
+        padding: 0px 0px;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .header-nav {
+        width: 100%;
+    }
+
+    .header-nav>ul>li {
+        background-color: #4e4b4b;
+        padding: 10px 0px;
+    }
+
+    .header-nav>ul>li>a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    /* ************************************** */
+    .bg-1>span {
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    /* ****************************************** */
+    .content-us {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 50px 20px;
+    }
+
+    .content-us>article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        text-align: center;
+    }
+
+    .content-us>article>nav>span {
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    form>nav>input {
+        background-color: #e6e1e1;
+        width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .last-input>input {
+        background-color: #e6e1e1;
+        width: 100%;
+        height: 150px;
+        border: none;
+    }
+
+    input::placeholder {
+        color: #1E2D66;
+        font-size: 15px;
+    }
+
+    button {
+        background-color: #1E2D66;
+        width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+
+    footer {
+        width: 100%;
+        height: 50px;
+        background-color: #1E2D66;
+        font-size: 15px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
